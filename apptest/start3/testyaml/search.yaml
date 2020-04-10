@@ -1,0 +1,25 @@
+loginPage:
+   dec: 搜索页
+locators:
+    -
+      info: 首页点击搜索
+      element: com.unique.app:id/kadindex_actv_search
+      find_type: id
+      operate_type: click
+    -
+      info: 输入关键词
+      element:  com.unique.app:id/et_search_key
+      find_type: id
+      operate_type: send_keys
+      send_content: 感冒
+    -
+      info: 点击搜索
+      element: com.unique.app:id/tv_right_text
+      find_type: id
+      operate_type: click
+    -
+      info: 点击搜索结果列表第一个
+      element: com.unique.app:id/tv_title
+      find_type: ids
+      operate_type: click
+      index: 0

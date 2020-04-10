@@ -1,0 +1,22 @@
+loginPage:
+   dec: µÇÂ¼
+locators: 
+      -
+         info: ÊäÈëÕËºÅ
+         element: com.unique.app:id/et_account
+         find_type: id
+         operate_type: send_keys
+         send_content: 13312345678
+            #index for ids
+            #time
+      -
+         info: ÊäÈëÃÜÂë
+         element: com.unique.app:id/et_password
+         find_type: id
+         operate_type: send_keys
+         send_content: 123456
+      -
+         info: µã»÷µÇÂ¼
+         element: com.unique.app:id/btn_login
+         find_type: id
+         operate_type: click

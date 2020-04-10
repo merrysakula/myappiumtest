@@ -1,0 +1,67 @@
+loginPage:
+   dec: (otc确认订单)新增收货地址
+locators: 
+      -
+         info: 点击进入收货地址页
+         element: com.unique.app:id/ll_choose_address
+         find_type: id
+         operate_type: click
+      -
+         info: 添加新地址
+         element: com.unique.app:id/btn_empty_new_address
+         find_type: id
+         operate_type: click
+      -
+         info: 收货人
+         element: //*[@resource-id="com.unique.app:id/ll_ziti_info"]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]
+         find_type: xpath
+         operate_type: send_keys
+         send_content: 13312345678
+      -
+         info: 手机号码
+         element: com.unique.app:id/et_number
+         find_type: id
+         operate_type: send_keys
+         send_content: 测试收货人
+      -
+         info: 所在地区
+         element: com.unique.app:id/ll_choose_province
+         find_type: id
+         operate_type: click
+         send_content: 13312345678
+      -
+         info: 省
+         element: //*[@resource-id="com.unique.app:id/rv_content_list"]/android.widget.LinearLayout[1]
+         find_type: xpath
+         operate_type: click
+      -
+         info: 市
+         element: //*[@resource-id="com.unique.app:id/rv_content_list"]/android.widget.LinearLayout[1]
+         find_type: xpath
+         operate_type: click
+      -
+         info: 区
+         element: //*[@resource-id="com.unique.app:id/rv_content_list"]/android.widget.LinearLayout[1]
+         find_type: xpath
+         operate_type: click
+      -
+         info: 街道
+         element: //*[@resource-id="com.unique.app:id/rv_content_list"]/android.widget.LinearLayout[1]
+         find_type: xpath
+         operate_type: click
+      -
+         info: 详细地址
+         element: com.unique.app:id/et_street
+         find_type: id
+         operate_type: send_keys
+         send_content: 测试地址
+      -
+         info: 保存并使用
+         element: com.unique.app:id/btn_save
+         find_type: id
+         operate_type: click
+      -
+         info: 提交订单
+         element: com.unique.app:id/btn_compute
+         find_type: id
+         operate_type: click

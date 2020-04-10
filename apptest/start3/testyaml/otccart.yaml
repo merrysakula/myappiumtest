@@ -1,0 +1,24 @@
+loginPage:
+   dec: OTC加入购物车，点击去结算
+locators:
+    -
+      info: 点击加入购物车按钮
+      element: com.unique.app:id/module_addcar_btn
+      find_type: id
+      operate_type: click
+    -
+      info: 点击购物车按钮跳转购物车页面
+      element: com.unique.app:id/module_gocart
+      find_type: id
+      operate_type: click
+    -
+      info: 点击数量加1
+      element: //*[@resource-id="com.unique.app:id/pml_cart_view"]/android.widget.ImageView[2]
+      find_type: xpath
+      operate_type: click
+    -
+      info: 点击立即结算按钮
+      element: com.unique.app:id/btn_compute
+      find_type: id
+      operate_type: click
+   

@@ -1,0 +1,15 @@
+otcPage:
+   dec: otc商品详情页
+locators: 
+      -
+         info: 点击加入购物车按钮
+         element: com.unique.app:id/module_addcar_btn
+         find_type: id
+         operate_type: click
+      -
+         info: 点击购物车按钮进入购物车页面
+         element: com.unique.app:id/module_gocart
+         find_type: id
+         operate_type: click
+
+   
